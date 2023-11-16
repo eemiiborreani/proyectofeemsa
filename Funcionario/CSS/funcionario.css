@@ -1,0 +1,300 @@
+@font-face {
+    font-family: NEW YORK;
+
+    src: url(../../Tipografia/NEWYORK.ttf);}
+
+@font-face {
+		font-family: Suitnice retro;
+		src: url(../../Tipografia/suitnice\ reguler.ttf);
+}	
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;	
+}
+
+.login{
+	background-color: red;
+	text-align: center;
+	align-items: center;
+	
+}
+
+.login2{
+	background-color: white;
+	width: fit-content;
+	border-radius: 0.5rem;
+	display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+	height: 15rem;
+    left: 10px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #46A2FD;
+}
+
+.login2 form input{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.login2 form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.container{
+	padding-top: 1rem;
+	width:100% ;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.33),rgba(0,0,0,0.33)),url(../../img/fondox.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 2%;
+	padding-right: 2%;
+	box-sizing: border-box;
+}
+
+.navbar{
+	
+	height: 10%;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.43),rgba(0,0,0,0.53)),url(../../img/fondox.png);
+	border-radius: 3rem;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	padding-right: 4%;
+	padding-left: 3%;
+}
+
+
+.logo{
+	width: 90px;
+
+}
+
+#home{
+	font-size: 1.7rem;
+	width: 50px;
+	cursor: pointer;
+}
+
+#user{
+	font-size: 1.7rem;
+	width: 50px;
+	cursor: pointer;
+}
+
+
+#menu-icon{
+	font-size: 1.7rem;
+	width: 50px;
+	cursor: pointer;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+	margin-left: 6rem;
+}
+
+.col{
+	flex-basis: 50%;
+}
+
+h1{
+	color:#fff;
+	font-size: 100px;
+	font-family: NEW YORK;
+	font-size: 10em;
+}
+
+#texto1{
+	color:#fff ;
+	font-size: 0.8rem;
+	line-height: 15px;
+
+}
+
+button{
+	width: 180px;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	transition: 2s;
+	cursor: pointer;
+}
+
+.camion{
+	width: 550px;
+	height: 530px;
+	display: inline-block;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 80px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 2s; 
+	display: flex;
+}
+.camion{
+	background-image: url(../../img/gif);
+}
+
+
+.camion:hover{
+	transform: translateX(150px);
+}
+
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+}
+
+
+
+#femsa{
+
+	color: #fff;
+	font-size: 1.3rem;
+	font-family: Suitnice retro;
+	margin-left: 1rem;
+	margin-top: 0.3rem;
+	
+}
+
+.cliente{
+	background-color: #fff;
+	width: 150px;
+	padding: 35px;
+}
+
+.camionero{
+	background-color: #0e0d0d;
+	width: 150px;
+	padding: 35px;
+}
+
+.administrador{
+	background-color: #5f2424;
+	width: 150px;
+	padding: 35px;
+}
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #05101a;
+	border-top: 2px solid #fff;
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 130px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+font-size: 15px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+	
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
